@@ -1,0 +1,75 @@
+		@font-face{
+			font-family: Kanit-Light;
+			src: url(../font/Kanit-Light.ttf);
+		}
+	
+		body{ 
+			background-image: url("../img/matrix.gif"); 
+			/* background-color: red; */
+			color: white; 
+			font-family: Kanit-Light;
+			font-size: 19px;
+			}
+		
+		#whoami{
+			background-color: black;
+			padding: 1%;
+			text-align: center;
+			font-size:1.3vw;
+			margin-left: 3%;
+			margin-right: 3%;
+		}
+		
+		nav{
+			font-size: 25px;
+			margin-left: 3%;
+			margin-right: 3%;
+			background-color: #1A1A1A;
+			text-align: center;
+			padding: -4% ;
+		}
+		
+		nav div ul li{
+			display: inline-block;
+			margin: 1%;
+		}
+		
+		
+		nav div ul li a{
+			color: white;
+			text-decoration: none;
+		}
+		
+		nav div ul li a:visited{color: white;}
+		
+		nav div ul li a:hover{color:black;}
+		
+		.conteudo{	
+			background-color: black;
+			margin-top: -1.5%;
+			margin-left: 3%;
+			margin-right: 3%;
+			text-align: left;
+			padding: 1%;
+		}
+		
+		
+		div ul li a:visited{color: #7D7D7D;}
+		
+		div ul li a:hover{color:white;}
+		
+		div h5 a:visited{color: #7D7D7D;}
+		
+		div h5 a:hover{color: #white;}
+		
+		footer{
+			background-color: #1A1A1A;
+			margin: -1%;
+			margin-top: 0.5%;
+			margin-left: 0%;
+			margin-right: 0%;
+			padding: 0.4%;
+			text-align: right;
+			font-size: 15px;
+		}
+		
