@@ -18,6 +18,10 @@
 			font-size:1.3vw;
 			margin-left: 3%;
 			margin-right: 3%;
+
+			@media (max-height: 941px) {
+				font-size: 3rem;
+			}
 		}
 		
 		nav{
